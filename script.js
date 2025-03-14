@@ -6,7 +6,7 @@ record.addEventListener("click", function () {
     if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
         alert("Your browser does not support Speech Recognition.");
         return;
-    }
+    } //Checks if the browser supports speech recognition.
 
     const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
     recognition.lang = "en-US"; // English language
