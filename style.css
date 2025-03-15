@@ -49,15 +49,16 @@
     border: none;
     padding: 5px;
     color: rgb(0, 0, 0);
-transform: scale(1.2);
-} 
+    transform: scale(1.2);
+}
+
 .row i:hover {
     border-radius: 50%;
     border: 0.5px solid #edeef0;
     color: rgb(0, 0, 0);
     background-color: #bdede640;
-    
-} 
+
+}
 
 
 input {
@@ -145,26 +146,45 @@ ul li span:hover {
 
 @media screen and (max-width: 600px) {
     .todo-app {
-        width: 95vw; /* Uses almost the full screen width */
-        padding: 1.5rem; /* Slightly reduces padding */
-        margin: 3vh auto; /* Keeps it vertically centered */
+        width: 95vw;
+        /* Uses almost the full screen width */
+        padding: 1.5rem;
+        /* Slightly reduces padding */
+        margin: 3vh auto;
+        /* Keeps it vertically centered */
     }
 
     .row {
-        flex-direction: column; /* Stacks input & button on top of each other */
-        gap: 0.8rem; /* Adds spacing */
-        width: 100%; /* Makes sure they fit properly */
+        flex-direction: column;
+        /* Stacks input & button on top of each other */
+
+        /* Adds spacing */
+        width: 100%;
+        /* Makes sure they fit properly */
+    }
+    .row i{
+      
+       margin-right: 30px;
     }
 
     input {
-        width: 100%; /* Makes input take full width */
-        font-size: 1rem; /* Adjusts for readability */
-        padding: 0.8rem; /* Proper touch-friendly size */
+        width: 100%;
+        /* Makes input take full width */
+        font-size: 1rem;
+        /* Adjusts for readability */
+        padding: 0.8rem;
+        /* Proper touch-friendly size */
     }
 
     button {
-        width: 100%; /* Makes button take full width */
-        padding: 0.8rem; /* Reduces padding */
-        font-size: 0.9rem; /* Prevents it from looking too big */
+        width: 100%;
+        /* Makes button take full width */
+        padding: 0.8rem;
+        /* Reduces padding */
+        font-size: 0.9rem;
+        /* Prevents it from looking too big */
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-bottom: 10px;
     }
 }
