@@ -142,3 +142,34 @@ ul li span:hover {
     background-color: transparent;
     color: #ffffff1e;
 }
+
+@media screen and (max-width: 600px) {
+    .todo-app {
+        width: 95vw; /* Uses almost the full screen width */
+        padding: 1.5rem; /* Slightly reduces padding */
+        margin: 3vh auto; /* Keeps it vertically centered */
+    }
+
+    .row {
+        flex-direction: column; /* Stacks input & button on top of each other */
+        gap: 0.8rem; /* Adds spacing */
+        width: 100%; /* Makes sure they fit properly */
+    }
+
+    input {
+        width: 100%; /* Makes input take full width */
+        font-size: 1rem; /* Adjusts for readability */
+        padding: 0.8rem; /* Proper touch-friendly size */
+    }
+
+    button {
+        width: 100%; /* Makes button take full width */
+        padding: 0.8rem; /* Reduces padding */
+        font-size: 0.9rem; /* Prevents it from looking too big */
+    }
+
+    ul li {
+        font-size: 14px; /* Slightly reduces text size */
+        padding-left: 35px; /* Adjusts spacing */
+    }
+}
