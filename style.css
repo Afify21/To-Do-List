@@ -168,8 +168,5 @@ ul li span:hover {
         font-size: 0.9rem; /* Prevents it from looking too big */
     }
 
-    ul li {
-        font-size: 14px; /* Slightly reduces text size */
-        padding-left: 35px; /* Adjusts spacing */
-    }
+    
 }
